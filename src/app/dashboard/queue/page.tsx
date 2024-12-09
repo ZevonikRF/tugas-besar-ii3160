@@ -1,4 +1,5 @@
 import styles from "@/app/interface/dashboard/queue/queue.module.css"
+import Link from "next/link";
 
 const Queue = () => {
     return(
@@ -25,9 +26,11 @@ const Queue = () => {
                 </tbody>
             </table>
             <div className={styles.lowertable}>
-                <div className={styles.button}>
-                    <button className={`${styles.buttonind} ${styles.add}`}>Tambah Antrian</button>
-                </div>
+                <Link href="/dashboard/queue/tambah">
+                    <div className={styles.button}>
+                        <button className={`${styles.buttonind} ${styles.add}`}>Tambah Antrian</button>
+                    </div>
+                </Link> 
             </div>
         </div>
     );

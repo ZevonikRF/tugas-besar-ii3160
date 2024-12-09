@@ -1,6 +1,7 @@
 import { title } from "process";
 import Menus from "./menus/menus";
 import styles from "./sidebar.module.css"
+import Link from "next/link";
 
 const menuItems = [
     {
@@ -30,7 +31,9 @@ const menuItems = [
 const Sidebar = () => {
     return(
         <div className={styles.container}>
-            <div className={styles.titleabc}>Cafe ABC's Dashboard</div>
+            <Link href="/dashboard">
+                <div className={styles.titleabc}>Cafe ABC's Dashboard</div>
+            </Link>
             <ul className={styles.menuscontainer}>
                 {menuItems.map((catg) => (
                     <li key={catg.title}>

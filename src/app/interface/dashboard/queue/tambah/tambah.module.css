@@ -1,0 +1,21 @@
+.container{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: var(--backgroundSd);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form input{
+    padding: 30px;
+    background-color: rgb(61, 67, 139);
+}
+
+.form button{
+    padding: 30px;
+    background-color: brown;
+}
