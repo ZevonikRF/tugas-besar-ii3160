@@ -1,0 +1,22 @@
+.container {
+    position: sticky;
+    top: 40px;
+}
+
+.titleabc {
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.menuscontainer {
+    list-style: none;
+}
+
+.catg {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
