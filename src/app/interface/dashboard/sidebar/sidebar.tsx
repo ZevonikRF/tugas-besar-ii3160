@@ -21,7 +21,7 @@ const menuItems = [
         list: [
             {
                 titleP: "Logout",
-                path: "dashboard/logout",
+                path: "login",
             }
         ]
     }

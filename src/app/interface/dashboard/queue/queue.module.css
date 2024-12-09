@@ -1,0 +1,38 @@
+.container{
+    background-color: var(--backgroundSd);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.table{
+    width: 100%;
+}
+
+.table td{
+    padding: 10px;
+}
+
+.button{
+    display: flex;
+    gap: 10px;
+}
+
+.buttonind{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    /* border: none; */
+}
+
+.change{
+    background-color: brown;
+}
+
+.lowertable{
+    padding-top: 20px;
+}
+
+.add{
+    background-color: darkolivegreen;
+;
+}
