@@ -20,8 +20,8 @@ const menuItems = [
         title: "User",
         list: [
             {
-                titleP: "Help",
-                path: "dashboard/help",
+                titleP: "Logout",
+                path: "dashboard/logout",
             }
         ]
     }

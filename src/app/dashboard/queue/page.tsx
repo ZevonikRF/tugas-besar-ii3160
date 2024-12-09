@@ -1,6 +1,6 @@
 const Queue = () => {
     return(
-        <div>Queue</div>
+        <div></div>
     );
 }
 export default Queue

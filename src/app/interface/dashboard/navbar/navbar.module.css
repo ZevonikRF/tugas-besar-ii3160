@@ -1,0 +1,11 @@
+.container {
+    padding: 20px;
+    background-color: var(--backgroundSd);
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-weight: 700;
+    text-transform: capitalize;
+}
